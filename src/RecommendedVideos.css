@@ -1,0 +1,83 @@
+.recommendedVideos {
+  flex: 0.8;
+  background-color: #f9f9f9;
+  padding: 40px 0;
+  padding-bottom: 0;
+  height: calc(100vh - 250px);
+  position: relative;
+}
+
+.recommendedVideos > h2 {
+}
+
+.rec-controller {
+  overflow-x: hidden;
+  position: relative;
+  max-width: 100%;
+  background-color: white;
+}
+
+.rec-container {
+  display: inline-flex;
+  padding: 10px 10px;
+}
+
+.rec-bar {
+  background-color: #f2f2f2;
+  border: 1px solid #eeee;
+  color: #212121;
+  padding: 5px 10px;
+  transition: background-color 0.5s cubic-bezier(0.05, 0, 0, 1);
+  margin: 12px;
+  margin-left: 0;
+  min-width: 12px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  outline: none;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+.rec-bar-selected,
+.rec-bar:hover {
+  background-color: #606060 !important;
+  color: white;
+}
+
+#rec-forward {
+  right: 0;
+  box-shadow: 3px 3px 10px 10px white;
+}
+
+#rec-forward,
+#rec-back {
+  display: none;
+  top: 50px;
+  position: absolute;
+  width: fit-content;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+#rec-back {
+  left: 0;
+  box-shadow: 10px 10px 3px 3px white;
+}
+
+#cards-container {
+  width: 100%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.you-cards {
+  width: 23%;
+  margin: 1% 0 0 1%;
+  float: left;
+}
+
+.you-thumb {
+  width: 100%;
+}
