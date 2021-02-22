@@ -23,14 +23,14 @@ export default class Sidebar extends Component {
             <SidebarRow selected Icon={HomeIcon} title="Home" />
             <SidebarRow Icon={WhatshotIcon} title="Trending" />
             <SidebarRow Icon={SubscriptionIcon} title="Subscription" />
-            <hr />
+            <div className="spliter" />
             <SidebarRow Icon={VideoLibraryIcon} title="Library" />
             <SidebarRow Icon={HistoryIcon} title="History" />
             <SidebarRow Icon={OndemandVideoIcon} title="Your videos" />
             <SidebarRow Icon={WatchLaterIcon} title="Watch Later" />
             <SidebarRow Icon={ThumbUpAltOutlinedIcon} title="Liked videos" />
             <SidebarRow Icon={ExpandMoreOutlinedIcon} title="Show more" />
-            <hr />
+            <div className="spliter" />
             <SidebarRow Icon={VideoLibraryIcon} title="Library" />
             <SidebarRow Icon={HistoryIcon} title="History" />
             <SidebarRow Icon={OndemandVideoIcon} title="Your videos" />

@@ -1,9 +1,7 @@
 .recommendedVideos {
   flex: 0.8;
   background-color: #f9f9f9;
-  padding: 40px 0;
-  padding-bottom: 0;
-  height: calc(100vh - 250px);
+  height: calc(100vh - 8.8rem);
   position: relative;
 }
 
@@ -53,7 +51,7 @@
 #rec-forward,
 #rec-back {
   display: none;
-  top: 50px;
+  top: 0.8rem;
   position: absolute;
   width: fit-content;
   background-color: white;
@@ -63,21 +61,21 @@
 
 #rec-back {
   left: 0;
-  box-shadow: 10px 10px 3px 3px white;
+  box-shadow: 4px 3px 3px 3px white;
 }
 
 #cards-container {
   width: 100%;
   height: 100%;
   background-color: #f9f9f9;
-}
-
-.you-cards {
-  width: 23%;
-  margin: 1% 0 0 1%;
-  float: left;
+  overflow-y: auto;
 }
 
 .you-thumb {
   width: 100%;
+}
+
+.cards {
+  cursor: pointer;
+  float: left !important;
 }
